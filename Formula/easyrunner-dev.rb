@@ -1,4 +1,4 @@
-class EasyrunnerCliATDev < Formula
+class EasyrunnerDev < Formula
   include Language::Python::Virtualenv
 
   desc "Development builds of EasyRunner - Single server self-hosting PaaS"
