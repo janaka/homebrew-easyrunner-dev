@@ -3,9 +3,9 @@ class EasyrunnerCliDev < Formula
 
   desc "Development builds of EasyRunner - Single server self-hosting PaaS"
   homepage "https://github.com/janaka/easyrunner"
-  url "https://files.pythonhosted.org/packages/c3/af/d7306341d8c3ecd1a196da507dc85d4b7faff0170c095fefcc7d0b7416f6/easyrunner_cli-0.0.8.dev100.tar.gz"
-  sha256 "d42916f01c673c833e982ea76a7f0025b4707dd5abe9386de639aa31a1d111be"
-  version "0.0.8.dev100"
+  url "https://files.pythonhosted.org/packages/9a/0b/7bd995c53451064346d2f96211c86316a0bf45b7f86d4cf46b3855a93a25/easyrunner_cli-0.0.8.dev101.tar.gz"
+  sha256 "719651c63523201a1281710169a92579678cce674e0edcbf9269b20075d14520"
+  version "0.0.8.dev101"
 
   depends_on "python@3.13"
 
