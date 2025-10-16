@@ -1,8 +1,8 @@
 class EasyrunnerCliDev < Formula
   desc "EasyRunner CLI - Development version"
   homepage "https://easyrunner.xyz"
-  url "https://files.pythonhosted.org/packages/8a/36/d2781867554974978cb8229383dadd181deb51ef1de4f7279a8da423504d/easyrunner_cli-0.0.8.dev113.tar.gz"
-  sha256 "a4e44616324d8552ace6558becad0f6c2f95a3493cc4d365911a76a203b6b039"
+  url "https://files.pythonhosted.org/packages/1d/19/40db6704853f0150f7ad1632926dc2cbcee896287af28fbfcfe3df4ca8db/easyrunner_cli-0.0.8.dev114.tar.gz"
+  sha256 "c4a8f52733556ea1c283f58727c4d2bfea2e8034e03e07ae12fe7de399f9159e"
 
   depends_on "python@3.13"
 
