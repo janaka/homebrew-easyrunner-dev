@@ -1,15 +1,16 @@
 class EasyrunnerCliDev < Formula
   desc "EasyRunner CLI - Development version"
   homepage "https://easyrunner.xyz"
-  url "https://files.pythonhosted.org/packages/f6/c4/61e11a5e9db4675d49845ba0f2654ba26598e0640447fa5a029e0a43618c/easyrunner_cli-0.0.8.dev112.tar.gz"
-  sha256 "1641fb32f77adfba24dc2fd6d33178fe84ecf24160f7fe5de565a34115fd4d71"
+  url "https://files.pythonhosted.org/packages/8a/36/d2781867554974978cb8229383dadd181deb51ef1de4f7279a8da423504d/easyrunner_cli-0.0.8.dev113.tar.gz"
+  sha256 "a4e44616324d8552ace6558becad0f6c2f95a3493cc4d365911a76a203b6b039"
 
   depends_on "python@3.13"
 
   def install
     # Create a virtual environment and install the package with all dependencies
+    python = Formula["python@3.13"].opt_bin/"python3"
     venv = libexec/"venv"
-    system "python3.3.13", "-m", "venv", venv
+    system python, "-m", "venv", venv
     pip = venv/"bin/pip"
     system pip, "install", "--upgrade", "pip"
     system pip, "install", "--upgrade", "setuptools", "wheel"
