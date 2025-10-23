@@ -1,8 +1,8 @@
 class EasyrunnerCliDev < Formula
   desc "EasyRunner CLI - Development version"
   homepage "https://easyrunner.xyz"
-  url "https://files.pythonhosted.org/packages/31/1f/e77414170c998eb9da94a9e6781b9cdefb29d3548558199c97139523a5c8/easyrunner_cli-0.0.8.dev126.tar.gz"
-  sha256 "b3cbdc303fd23a7d85eac980494005bbefb27f7d7371941cf02e13b7f4c34c07"
+  url "https://files.pythonhosted.org/packages/a9/88/ed3429611d741e8abb8223cd7033c02cbee71e0a3ef5f7445c1531095560/easyrunner_cli-0.0.8.dev127.tar.gz"
+  sha256 "e427cf68fcafc0f9fc8a61c9806a985a3f614fe951c17f2e8356c13e8234fe7e"
 
   depends_on "python@3.13"
 
@@ -15,7 +15,7 @@ class EasyrunnerCliDev < Formula
     pip = venv/"bin/pip"
     system pip, "install", "--upgrade", "pip"
     system pip, "install", "--upgrade", "setuptools", "wheel"
-    system pip, "install", "easyrunner-cli==0.0.8.dev126"
+    system pip, "install", "easyrunner-cli==0.0.8.dev127"
     
     # Create wrapper script for the er command
     bin.install_symlink venv/"bin/er"
